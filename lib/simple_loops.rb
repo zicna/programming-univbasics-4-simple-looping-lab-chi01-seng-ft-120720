@@ -31,9 +31,8 @@ def return_string_array(array)
   while (count < arrLen) do 
     array[count] = array[count].to_s
     count += 1
-    puts array[count].class
   end
-  puts array[]
+  return array
 end
 
 return_string_array([2, "string1", "2", 13, 12.5])
