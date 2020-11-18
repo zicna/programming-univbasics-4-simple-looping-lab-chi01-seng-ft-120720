@@ -25,7 +25,7 @@ def output_array(array)
     end
 end
 
-def return_string_arrareturn_string_arrayy(array)
+def return_string_array(array)
   count = 0
   arrLen = array.length
   while (count < arrLen) do 
