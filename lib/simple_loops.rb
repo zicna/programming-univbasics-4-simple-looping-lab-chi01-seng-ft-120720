@@ -24,3 +24,33 @@ def output_array(array)
       count += 1
     end
 end
+
+def return_string_array(array)
+  count = 0
+  arrLen = array.length
+  while (count < arrLen) do 
+    array[count] = array[count].to_s
+  end
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
