@@ -15,3 +15,12 @@ while count < n do
   count += 1
 end
 end
+
+def output_array(array)
+  count = 0
+  arrLen = array.size
+    while arrLen < count  do 
+      puts array[count]
+      count += 1
+    end
+end
