@@ -25,17 +25,17 @@ def output_array(array)
     end
 end
 
-def return_string_array(array)
+def return_string_arrareturn_string_arrayy(array)
   count = 0
   arrLen = array.length
   while (count < arrLen) do 
     array[count] = array[count].to_s
     count += 1
   end
-  return array
+  puts array
 end
 
-
+return_string_array([2, "string1", "2", 13, 12.5])
 
 
 
